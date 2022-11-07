@@ -1,3 +1,7 @@
+:root{
+  --greycolor: rgb(125, 121, 121);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -57,7 +61,7 @@
     text-align: center;
     margin-top: 10px;
     cursor: pointer;
-    color: rgb(125, 121, 121);
+    color: var(--greycolor);
   }
   
   .heading {
@@ -74,7 +78,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: rgb(125, 121, 121);
+    color: var(--greycolor);
   }
   
   .task-item {
@@ -105,5 +109,5 @@
   
   .completed {
     text-decoration: line-through;
-    color: rgb(125, 121, 121);
-  }
+    color: var(--greycolor);
+    }
